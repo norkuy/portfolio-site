@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CUSTOM CSS */
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #313A4B;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner {
+    background: linear-gradient(rgba(42,54,59, 0.6), rgba(42,54,59, 1)), url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 18rem 9rem;
+    color: white;
+}
+
+
+#banner .bio {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+.banner-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    #banner {
+        padding: 13rem 6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #banner {
+        padding: 5rem 1.5rem;
+    }
+}
+
+#banner h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 0.25rem;
+}
+
+@media (max-width: 1200px) {
+    #banner h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #banner h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+#banner p {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#portfolio-item {
+    margin: 2rem 2.5rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#portfolio-item img {
+    box-shadow: 2px 2px 20px rgba(0,0,0, 0.3);
+}
+
+
+#portfolio-item h2 {
+    padding-bottom: 0.4rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sum {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    line-height: 1.6rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+@media (max-width: 600px) {
+    li {
+        text-align: center;
+        margin: 0.3rem 0;
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h3.tech {
+    padding-bottom: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.wave {
+    max-width: 60px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .wave {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+    }
+}
+
+button {
+    font-family: inherit;
+    border: 0;
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 1rem 0;
+}
+
+@media (max-width: 500px) {
+    button {
+        margin: 0.5rem 0;
+    }
+}
+
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-center {
+    justify-content: center;
+}
