@@ -101,6 +101,13 @@ a:focus {
     }
 }
 
+@media (max-width: 800px) {
+    #banner {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
+
 @media (max-width: 600px) {
     #banner {
         padding: 5rem 1.5rem;
